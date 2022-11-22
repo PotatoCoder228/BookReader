@@ -3,6 +3,26 @@
 //
 
 #include "main_win.h"
+#define NUM_COLS 6
+
+enum
+{
+    COL_NAME = 1000,
+    COL_AUTHOR = 1001,
+    COL_YEAR = 1002,
+    COL_LASTPAGE = 1003,
+    COL_LANG = 1004,
+    COL_TAGS = 1005
+} ;
+
+
+G_MODULE_EXPORT void on_main_table_cursor_changed(GtkWidget *w){
+
+}
+
+G_MODULE_EXPORT void on_main_table_row_activated(GtkWidget *w){
+
+}
 
 G_MODULE_EXPORT void on_quit(GtkWidget *w) {
     gtk_main_quit();
