@@ -15,8 +15,6 @@ void main_win_signal_init(GtkBuilder * ui_builder, GtkWidget* main_win, GError *
     file_submenu_quit = GTK_WIDGET(gtk_builder_get_object(ui_builder, "file_submenu_quit"));
 
     gtk_builder_connect_signals(ui_builder, NULL);
-    g_signal_connect(G_OBJECT(main_win), "destroy", G_CALLBACK(gtk_main_quit), NULL);
-    g_signal_connect(G_OBJECT(file_submenu_quit), "activate", G_CALLBACK(on_quit), NULL);
 }
 
 void main_win_set_parameteres(GtkWidget* main_window, GError* error){

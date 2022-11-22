@@ -14,6 +14,10 @@ pkg_check_modules(GTK REQUIRED gtk+-3.0)
 add_executable(${PROJECT_TARGET} main_app/app.c main_app/main_win.c main_app/main_win.h)
 target_link_libraries(${PROJECT_TARGET} PRIVATE ${GTK_LIBRARIES})
 
+if (UNIX)
+    set(CMAKE_EXE_LINKER_FLAGS "-rdynamic")
+endif()
+
 # Setup CMake to use GTK+, tell the compiler where to look for headers
 # and to the linker where to look for libraries
 target_include_directories(${PROJECT_TARGET} PRIVATE ${GTK_INCLUDE_DIRS})
