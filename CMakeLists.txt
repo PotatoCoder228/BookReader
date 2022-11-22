@@ -16,7 +16,7 @@ target_link_libraries(${PROJECT_TARGET} PRIVATE ${GTK_LIBRARIES})
 
 if (UNIX)
     set(CMAKE_EXE_LINKER_FLAGS "-rdynamic")
-endif()
+endif ()
 
 # Setup CMake to use GTK+, tell the compiler where to look for headers
 # and to the linker where to look for libraries
