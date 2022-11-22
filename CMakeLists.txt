@@ -11,7 +11,7 @@ cmake_minimum_required(VERSION 3.10)
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(GTK REQUIRED gtk+-3.0)
 # Create the executable
-add_executable(${PROJECT_TARGET} main_app/main.c)
+add_executable(${PROJECT_TARGET} main_app/app.c main_app/main_win.c main_app/main_win.h)
 target_link_libraries(${PROJECT_TARGET} PRIVATE ${GTK_LIBRARIES})
 
 # Setup CMake to use GTK+, tell the compiler where to look for headers
