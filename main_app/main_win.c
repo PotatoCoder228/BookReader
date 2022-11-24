@@ -23,12 +23,12 @@ G_MODULE_EXPORT void on_main_table_row_activated(GtkWidget *w) {
 
 }
 
-G_MODULE_EXPORT void choose_file(GtkWidget *w, GtkFileChooser * file_chooser) {
-    gchar* filename = gtk_file_chooser_get_filename(file_chooser);
+G_MODULE_EXPORT void choose_file(GtkWidget *w, GtkFileChooser *file_chooser) {
+    gchar *filename = gtk_file_chooser_get_filename(file_chooser);
     printf("%s", filename);
 }
 
-G_MODULE_EXPORT void on_file_submenu_open_activate(GtkWidget* w, GtkWidget * main_window) {
+G_MODULE_EXPORT void on_file_submenu_open_activate(GtkWidget *w, GtkWidget *main_window) {
     //GtkFileChooserDialog *file_chooser = gtk_file_chooser_dialog_new("Выберите папку", main_window, GTK_RESPONSE_ACCEPT, "Выбрать", GTK_RESPONSE_CANCEL, "Отмена");
     //gtk_widget_show_all(file_chooser);
 }
