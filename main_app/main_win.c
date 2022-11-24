@@ -40,7 +40,7 @@ G_MODULE_EXPORT void on_quit(GtkWidget *w) {
 void main_win_set_parameteres(GtkWidget *main_window, GError *error) {
     gtk_window_set_title(GTK_WINDOW (main_window), "BookReader");
     gtk_window_set_icon_from_file(GTK_WINDOW (main_window),
-                                  "/home/potato_coder/CLionProjects/BookReader/resources/icons/icon.png", &error);
+                                  "/home/potato_coder/CLionProjects/BookReader/resources/icons/app_icon.png", &error);
     gtk_window_set_default_size(GTK_WINDOW (main_window), 1280, 720);
 }
 
