@@ -2,6 +2,57 @@
 <!-- Generated with glade 3.40.0 -->
 <interface>
   <requires lib="gtk+" version="3.24"/>
+  <object class="GtkFileChooserDialog">
+    <property name="can-focus">False</property>
+    <property name="type-hint">dialog</property>
+    <child internal-child="vbox">
+      <object class="GtkBox">
+        <property name="can-focus">False</property>
+        <property name="orientation">vertical</property>
+        <property name="spacing">2</property>
+        <child internal-child="action_area">
+          <object class="GtkButtonBox">
+            <property name="can-focus">False</property>
+            <property name="layout-style">end</property>
+            <child>
+              <object class="GtkButton">
+                <property name="label" translatable="yes">button</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+              </object>
+              <packing>
+                <property name="expand">True</property>
+                <property name="fill">True</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton">
+                <property name="label" translatable="yes">button</property>
+                <property name="visible">True</property>
+                <property name="can-focus">True</property>
+                <property name="receives-default">True</property>
+              </object>
+              <packing>
+                <property name="expand">True</property>
+                <property name="fill">True</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">False</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+      </object>
+    </child>
+  </object>
   <object class="GtkImage" id="image1">
     <property name="visible">True</property>
     <property name="can-focus">False</property>
@@ -20,7 +71,7 @@
       <column type="gchararray"/>
       <!-- column-name Год -->
       <column type="gint64"/>
-      <!-- column-name Последняя страница -->
+      <!-- column-name Последняя -->
       <column type="gint64"/>
       <!-- column-name Язык -->
       <column type="gchararray"/>
@@ -35,6 +86,326 @@
         <col id="3">60</col>
         <col id="4" translatable="yes">Русский</col>
         <col id="5" translatable="yes">[алгоритмы]</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
+      </row>
+      <row>
+        <col id="0" translatable="yes"/>
+        <col id="1" translatable="yes"/>
+        <col id="2">0</col>
+        <col id="3">0</col>
+        <col id="4" translatable="yes"/>
+        <col id="5" translatable="yes"/>
       </row>
     </data>
   </object>
@@ -74,6 +445,7 @@
                         <property name="use-underline">True</property>
                         <property name="image">image1</property>
                         <property name="use-stock">False</property>
+                        <signal name="activate" handler="on_file_submenu_open_activate" object="main_window" swapped="no"/>
                       </object>
                     </child>
                     <child>
@@ -156,122 +528,130 @@
               <object class="GtkPaned">
                 <property name="visible">True</property>
                 <property name="can-focus">True</property>
-                <property name="position">1000</property>
+                <property name="position">900</property>
+                <property name="position-set">True</property>
                 <child>
                   <object class="GtkViewport">
                     <property name="visible">True</property>
                     <property name="can-focus">False</property>
                     <child>
-                      <object class="GtkTreeView" id="main_table">
+                      <object class="GtkScrolledWindow">
                         <property name="visible">True</property>
                         <property name="can-focus">True</property>
-                        <property name="model">main_book_table</property>
-                        <property name="reorderable">True</property>
-                        <property name="enable-grid-lines">both</property>
-                        <signal name="cursor-changed" handler="on_main_table_cursor_changed" swapped="no"/>
-                        <signal name="row-activated" handler="on_main_table_row_activated" swapped="no"/>
-                        <child internal-child="selection">
-                          <object class="GtkTreeSelection"/>
-                        </child>
+                        <property name="shadow-type">in</property>
                         <child>
-                          <object class="GtkTreeViewColumn">
-                            <property name="resizable">True</property>
-                            <property name="title" translatable="yes">Название книги</property>
-                            <property name="expand">True</property>
-                            <property name="clickable">True</property>
+                          <object class="GtkTreeView" id="main_table">
+                            <property name="visible">True</property>
+                            <property name="can-focus">True</property>
+                            <property name="model">main_book_table</property>
                             <property name="reorderable">True</property>
-                            <property name="sort-indicator">True</property>
-                            <child>
-                              <object class="GtkCellRendererText"/>
-                              <attributes>
-                                <attribute name="text">0</attribute>
-                              </attributes>
+                            <property name="search-column">0</property>
+                            <property name="enable-grid-lines">both</property>
+                            <signal name="row-activated" handler="on_main_table_row_activated" swapped="no"/>
+                            <child internal-child="selection">
+                              <object class="GtkTreeSelection"/>
                             </child>
-                          </object>
-                        </child>
-                        <child>
-                          <object class="GtkTreeViewColumn">
-                            <property name="resizable">True</property>
-                            <property name="title" translatable="yes">Автор</property>
-                            <property name="expand">True</property>
-                            <property name="clickable">True</property>
-                            <property name="reorderable">True</property>
-                            <property name="sort-indicator">True</property>
                             <child>
-                              <object class="GtkCellRendererText"/>
-                              <attributes>
-                                <attribute name="text">1</attribute>
-                              </attributes>
+                              <object class="GtkTreeViewColumn">
+                                <property name="resizable">True</property>
+                                <property name="title" translatable="yes">Название книги</property>
+                                <property name="expand">True</property>
+                                <property name="clickable">True</property>
+                                <property name="reorderable">True</property>
+                                <property name="sort-indicator">True</property>
+                                <child>
+                                  <object class="GtkCellRendererText"/>
+                                  <attributes>
+                                    <attribute name="text">0</attribute>
+                                  </attributes>
+                                </child>
+                              </object>
                             </child>
-                          </object>
-                        </child>
-                        <child>
-                          <object class="GtkTreeViewColumn">
-                            <property name="resizable">True</property>
-                            <property name="title" translatable="yes">Год</property>
-                            <property name="expand">True</property>
-                            <property name="clickable">True</property>
-                            <property name="reorderable">True</property>
-                            <property name="sort-indicator">True</property>
                             <child>
-                              <object class="GtkCellRendererText"/>
-                              <attributes>
-                                <attribute name="text">2</attribute>
-                              </attributes>
+                              <object class="GtkTreeViewColumn">
+                                <property name="resizable">True</property>
+                                <property name="title" translatable="yes">Автор</property>
+                                <property name="expand">True</property>
+                                <property name="clickable">True</property>
+                                <property name="reorderable">True</property>
+                                <property name="sort-indicator">True</property>
+                                <child>
+                                  <object class="GtkCellRendererText"/>
+                                  <attributes>
+                                    <attribute name="text">1</attribute>
+                                  </attributes>
+                                </child>
+                              </object>
                             </child>
-                          </object>
-                        </child>
-                        <child>
-                          <object class="GtkTreeViewColumn">
-                            <property name="resizable">True</property>
-                            <property name="title" translatable="yes">Язык</property>
-                            <property name="expand">True</property>
-                            <property name="clickable">True</property>
-                            <property name="reorderable">True</property>
-                            <property name="sort-indicator">True</property>
                             <child>
-                              <object class="GtkCellRendererText"/>
-                              <attributes>
-                                <attribute name="text">4</attribute>
-                              </attributes>
+                              <object class="GtkTreeViewColumn">
+                                <property name="resizable">True</property>
+                                <property name="title" translatable="yes">Год</property>
+                                <property name="expand">True</property>
+                                <property name="clickable">True</property>
+                                <property name="reorderable">True</property>
+                                <property name="sort-indicator">True</property>
+                                <child>
+                                  <object class="GtkCellRendererText"/>
+                                  <attributes>
+                                    <attribute name="text">2</attribute>
+                                  </attributes>
+                                </child>
+                              </object>
                             </child>
-                          </object>
-                        </child>
-                        <child>
-                          <object class="GtkTreeViewColumn">
-                            <property name="resizable">True</property>
-                            <property name="title" translatable="yes">Последняя страница</property>
-                            <property name="expand">True</property>
-                            <property name="clickable">True</property>
-                            <property name="reorderable">True</property>
-                            <property name="sort-indicator">True</property>
                             <child>
-                              <object class="GtkCellRendererText"/>
-                              <attributes>
-                                <attribute name="text">3</attribute>
-                              </attributes>
+                              <object class="GtkTreeViewColumn">
+                                <property name="resizable">True</property>
+                                <property name="title" translatable="yes">Язык</property>
+                                <property name="expand">True</property>
+                                <property name="clickable">True</property>
+                                <property name="reorderable">True</property>
+                                <property name="sort-indicator">True</property>
+                                <child>
+                                  <object class="GtkCellRendererText"/>
+                                  <attributes>
+                                    <attribute name="text">4</attribute>
+                                  </attributes>
+                                </child>
+                              </object>
                             </child>
-                          </object>
-                        </child>
-                        <child>
-                          <object class="GtkTreeViewColumn">
-                            <property name="resizable">True</property>
-                            <property name="title" translatable="yes">Теги</property>
-                            <property name="expand">True</property>
-                            <property name="clickable">True</property>
-                            <property name="reorderable">True</property>
-                            <property name="sort-indicator">True</property>
                             <child>
-                              <object class="GtkCellRendererText"/>
-                              <attributes>
-                                <attribute name="text">5</attribute>
-                              </attributes>
+                              <object class="GtkTreeViewColumn">
+                                <property name="resizable">True</property>
+                                <property name="title" translatable="yes">Последняя страница</property>
+                                <property name="expand">True</property>
+                                <property name="clickable">True</property>
+                                <property name="reorderable">True</property>
+                                <property name="sort-indicator">True</property>
+                                <child>
+                                  <object class="GtkCellRendererText"/>
+                                  <attributes>
+                                    <attribute name="text">3</attribute>
+                                  </attributes>
+                                </child>
+                              </object>
                             </child>
-                          </object>
-                        </child>
-                        <child internal-child="accessible">
-                          <object class="AtkObject" id="main_table-atkobject">
-                            <property name="AtkObject::accessible-role">file-chooser</property>
+                            <child>
+                              <object class="GtkTreeViewColumn">
+                                <property name="resizable">True</property>
+                                <property name="title" translatable="yes">Теги</property>
+                                <property name="expand">True</property>
+                                <property name="clickable">True</property>
+                                <property name="reorderable">True</property>
+                                <property name="sort-indicator">True</property>
+                                <child>
+                                  <object class="GtkCellRendererText"/>
+                                  <attributes>
+                                    <attribute name="text">5</attribute>
+                                  </attributes>
+                                </child>
+                              </object>
+                            </child>
+                            <child internal-child="accessible">
+                              <object class="AtkObject" id="main_table-atkobject">
+                                <property name="AtkObject::accessible-role">file-chooser</property>
+                              </object>
+                            </child>
                           </object>
                         </child>
                       </object>
@@ -291,28 +671,15 @@
                       <object class="GtkGrid">
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
-                        <child>
-                          <object class="GtkImage">
-                            <property name="visible">True</property>
-                            <property name="can-focus">False</property>
-                            <property name="margin-top">90</property>
-                            <property name="stock">gtk-floppy</property>
-                          </object>
-                          <packing>
-                            <property name="left-attach">0</property>
-                            <property name="top-attach">0</property>
-                          </packing>
-                        </child>
+                        <property name="column-homogeneous">True</property>
                         <child>
                           <object class="GtkEntry">
                             <property name="visible">True</property>
                             <property name="can-focus">True</property>
                             <property name="halign">center</property>
                             <property name="valign">center</property>
-                            <property name="margin-left">5</property>
-                            <property name="margin-right">5</property>
-                            <property name="margin-top">90</property>
-                            <property name="margin-bottom">10</property>
+                            <property name="margin-top">10</property>
+                            <property name="margin-bottom">90</property>
                             <property name="editable">False</property>
                             <property name="text" translatable="yes">Название книги</property>
                             <property name="truncate-multiline">True</property>
@@ -331,8 +698,6 @@
                             <property name="can-focus">False</property>
                             <property name="halign">center</property>
                             <property name="valign">center</property>
-                            <property name="margin-left">5</property>
-                            <property name="margin-right">5</property>
                             <property name="margin-top">20</property>
                             <property name="margin-bottom">20</property>
                             <property name="label" translatable="yes">Путь к файлу</property>
@@ -348,8 +713,6 @@
                             <property name="can-focus">True</property>
                             <property name="halign">center</property>
                             <property name="valign">center</property>
-                            <property name="margin-left">5</property>
-                            <property name="margin-right">5</property>
                             <property name="margin-top">10</property>
                             <property name="margin-bottom">10</property>
                             <property name="editable">False</property>
@@ -364,6 +727,36 @@
                           </packing>
                         </child>
                         <child>
+                          <object class="GtkViewport">
+                            <property name="visible">True</property>
+                            <property name="can-focus">False</property>
+                            <property name="margin-top">10</property>
+                            <property name="hscroll-policy">natural</property>
+                            <property name="vscroll-policy">natural</property>
+                            <property name="shadow-type">none</property>
+                            <child>
+                              <object class="GtkEventBox">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <child>
+                                  <object class="GtkImage" id="file_icon">
+                                    <property name="visible">True</property>
+                                    <property name="can-focus">False</property>
+                                    <property name="pixbuf">../icons/png_icon.png</property>
+                                    <style>
+                                      <class name="image_background"/>
+                                    </style>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                          </object>
+                          <packing>
+                            <property name="left-attach">0</property>
+                            <property name="top-attach">0</property>
+                          </packing>
+                        </child>
+                        <child>
                           <placeholder/>
                         </child>
                         <child>
@@ -373,8 +766,8 @@
                     </child>
                   </object>
                   <packing>
-                    <property name="resize">True</property>
-                    <property name="shrink">True</property>
+                    <property name="resize">False</property>
+                    <property name="shrink">False</property>
                   </packing>
                 </child>
               </object>
